@@ -14,11 +14,13 @@ body {
   justify-content: center;
   flex-direction: column;
   gap: 5px;
-  background: linear-gradient(90deg, rgba(91,30,159,1) 0%, rgba(77,39,182,1) 100%);
+  background: linear-gradient(90deg, rgb(81, 1, 173) 0%, rgba(29, 17, 61, 0.692) 100%);
 }
 
 body h2 {
-  color: white;
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
 main {
@@ -26,8 +28,8 @@ main {
   padding: 10px;
   border-radius: 10px;
   width: 100%;
-  max-width: 300px;
-  min-height: 200px;
+  max-width: 800px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
